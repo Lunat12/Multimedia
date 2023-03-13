@@ -1,7 +1,9 @@
 APK link: https://drive.google.com/file/d/1Uy5lVQ9ESw4hB3KpQl5Bni0Oa9-u0K7d/view?usp=sharing
 
-Android Studio Link: https://drive.google.com/file/d/1bDIPWpDEcuBcaGdC0RyKS-O9-0XIvqe_/view?usp=sharing
 
+La carpeta Camera es el proyecto de Android Studio
+-----------------------------------------------------------------------------------------------
+The folder Camera is the andorid Studio project
 
 
 Ruta para guardar las imagenes que se quieran mostrar en la galeria:

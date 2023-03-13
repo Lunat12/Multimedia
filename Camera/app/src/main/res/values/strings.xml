@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Multimedia</string>
+
+    <string name="app_camera">Camera</string>
+    <string name="app_gallery">Gallery</string>
+    <string name="app_video_player">Video Player</string>
+    <string name="app_recorder">Recorder</string>
+
+    <string name="play">play</string>
+    <string name="pause">pause</string>
+    <string name="stop">stop</string>
+    <string name="resume">resume</string>
+    <string name="record">record</string>
+
+    <string name="playing_audio">Playing audio</string>
+    <string name="recording">Recording</string>
+    <string name="recorder_stopped">Recorder stopped</string>
+    <string name="audio_ended">End of audio</string>
+    <string name="recording_permissions">Recording permissions required to perform this action.</string>
+
+    <string name="photo">photo</string>
+    <string name="video">video</string>
+
+    <string name="space_unicorn">Space Unicorn</string>
+    <string name="insane">Insane</string>
+    <string name="hornet">Hornet</string>
+
+    <string name="music_video">Music video</string>
+
+    <string name="android_resource_path">android.resource://</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bar">/</string>
+
+    <string name="next">→</string>
+    <string name="prev">←</string>
+
+    <string name="data">data</string>
+    <string name="io">IO</string>
+    <string name="description">image</string>
+
+    <string name="gp">.3gp</string>
+    <string name="temp_audio">temporalAudio</string>
+
+
+
+</resources>

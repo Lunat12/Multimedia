@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainer"
+        android:name="institute.immune.camera.Photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </androidx.fragment.app.FragmentContainerView>
+
+    <Button
+        android:id="@+id/btn_close"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="right|top"
+        android:drawableLeft="@drawable/close"
+        android:drawableTint="@color/white"/>
+
+    <Button
+        android:id="@+id/btn_camera"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:layout_gravity="left|bottom"
+        android:drawableLeft="@drawable/cam"
+        android:drawableTint="@color/white"
+        android:text = "@string/photo"/>
+
+    <Button
+        android:id="@+id/btn_video"
+        android:layout_width="130dp"
+        android:layout_margin="20dp"
+        android:layout_height="50dp"
+        android:layout_gravity="right|bottom"
+        android:drawableLeft="@drawable/vid"
+        android:drawableTint="@color/white"
+        android:text = "@string/video"/>
+
+</FrameLayout>

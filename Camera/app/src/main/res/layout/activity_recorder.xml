@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_record"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:layout_gravity="left|center_vertical"
+        android:text = "@string/record"/>
+
+    <Button
+        android:id="@+id/btn_stop"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:text = "@string/stop"/>
+
+    <Button
+        android:id="@+id/btn_play"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:layout_gravity="right|center_vertical"
+        android:text = "@string/play"/>
+
+    <Button
+        android:id="@+id/btn_close"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="right|top"
+        android:drawableLeft="@drawable/close"
+        android:drawableTint="@color/white"/>
+
+</FrameLayout>

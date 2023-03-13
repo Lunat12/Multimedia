@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Gallery">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:id="@+id/btn_close"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="right|top"
+        android:drawableLeft="@drawable/close"
+        android:drawableTint="@color/white"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:layout_gravity="top|center_horizontal">
+
+        <LinearLayout
+            android:id="@+id/linearLayoutMain"
+            android:layout_width="fill_parent"
+            android:layout_margin="2dp"
+            android:layout_height="fill_parent"
+            android:isScrollContainer="true"
+            android:orientation="vertical">
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
